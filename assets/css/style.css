@@ -1,0 +1,14 @@
+:root {
+    --cor-branca: #fff;
+    --cor-verde: #00cad1;
+    --cor-cinza-medio: #cdcdcd;
+    --cor-cinza-claro: #f1f1f1;
+    --cor-verde-escuro: #0c6e71;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'source sans pro', sans-serif;
+}
