@@ -12,3 +12,32 @@
     box-sizing: border-box;
     font-family: 'source sans pro', sans-serif;
 }
+
+#menu {
+    width: 100%;
+    padding: 0 10%;
+    background-color: var(--cor-verde);
+
+    .barra-de-navegacao {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .lista-de-itens {
+            gap: 20px;
+            display: flex;
+                padding: 10px;
+                list-style: none;
+
+            .link {
+                padding: 10px;
+                text-decoration: none;
+                color: var(--cor-branca);
+            }
+
+            .link:hover {
+                border-bottom: 1px solid;
+            }
+        }
+    }
+}

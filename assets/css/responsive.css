@@ -1,0 +1,23 @@
+/* DESKTOP ATÉ 1024px */
+@media (max-width: 1024px) {
+    #menu {
+        padding: 0 20px;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 500px) {
+    #menu {
+
+        .barra-de-navegacao {
+            flex-direction: column;
+
+            .lista-de-itens {
+                gap: 10%;
+                width: 100%;
+                border-top: 1px solid;
+                justify-content: space-evenly;
+            }
+        }
+    }
+}
