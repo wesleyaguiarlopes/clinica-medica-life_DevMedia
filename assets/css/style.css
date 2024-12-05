@@ -41,3 +41,29 @@
         }
     }
 }
+
+#rodape {
+    text-align: center;
+    color: var(--cor-branca);
+    background-color: var(--cor-verde-escuro);
+
+    .lista-de-itens {
+        li {
+            padding: 10px;
+
+            .link {
+                text-decoration: none;
+                color: var(--cor-branca);
+            }
+
+            .link:hover {
+                text-decoration: underline;
+                color: var(--cor-branca);
+            }
+        }
+
+        li:last-of-type {
+            padding-bottom: 40px;
+        }
+    }
+}
