@@ -1,0 +1,59 @@
+#home {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../../images/recepcao2.jpg');
+
+    div {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        background-color: #00000063;
+
+        .titulo-home {
+            padding-left: 10%;
+            font-weight: normal;
+            color: var(--cor-branca);
+            text-transform: uppercase;
+            font-size: 60px;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    #home {
+        height: 400px;
+
+        div {
+            .titulo-home {
+                padding-left: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #home {
+        height: 300px;
+
+        div {
+            .titulo-home {
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    #home {
+        height: 200px;
+
+        div {
+            .titulo-home {
+                font-size: 23px;
+            }
+        }
+    }
+}
