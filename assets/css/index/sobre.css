@@ -1,6 +1,6 @@
 #sobre {
-    text-align: center;
     padding: 20px 10%;
+    text-align: center;
 
     h2, h3 {
         padding: 10px 0;
@@ -21,6 +21,60 @@
             padding-left: 50px;
             text-align: left;
         }
+    }
+
+    .especialidades-fotos {
+        gap: 30px;
+        display: flex;
+        padding: 30px 10px;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        img {
+            width: 300px;
+        }
+
+        a {
+            color: #000;
+            margin: 30px 0;
+            text-decoration: none;
+            text-transform: uppercase;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.718);
+        }
+
+        a:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.884);
+        }
+
+        a::after {
+            content: "";
+            padding: 5px;
+            display: block;
+        }
+
+        a:first-of-type:after {
+            content: "ortopedia";
+        }
+
+        a:nth-of-type(2):after {
+            content: "pediatria";
+        }
+
+        a:last-of-type:after {
+            content: "geriatria";
+        }
+    }
+
+    .btn-pagina-especialidades {
+        padding: 15px;
+        text-decoration: none;
+        color: var(--cor-branca);
+        text-transform: uppercase;
+        background-color: var(--cor-verde);
+    }
+
+    .btn-pagina-especialidades:hover {
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.718);
     }
 }
 
