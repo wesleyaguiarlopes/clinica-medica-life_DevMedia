@@ -1,0 +1,13 @@
+#contato {
+    text-align: center;
+    padding: 30px 10px;
+
+    p {
+        margin: 20px;
+    }
+
+    iframe {
+        width: 100%;
+        max-width: 1000px;
+    }
+}
