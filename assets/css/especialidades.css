@@ -1,0 +1,88 @@
+.link-especialidades {
+    .barra-de-navegacao-especialidades {
+        .itens-especialidades {
+            gap: 20px;
+            display: flex;
+            padding: 20px;
+            list-style: none;
+            justify-content: center;
+            text-transform: capitalize;
+            flex-wrap: wrap;
+
+            a {
+                color: #000;
+                text-decoration: none;
+                border-bottom: 4px solid var(--cor-verde);
+                padding: 5px;
+            }
+
+            a:hover {
+                border-bottom: 4px solid var(--cor-verde-escuro);
+            }
+        }
+    }
+}
+
+.especialidades {
+    text-align: center;
+
+    h1 {
+        padding: 20px;
+    }
+
+    .titulo-especialidade {
+        text-transform: capitalize;
+    }
+
+    .descricao-especialidade {
+        width: 100%;
+        padding: 10px;
+        margin: 0 auto;
+        max-width: 560px;
+    }
+
+    .tabela-horarios {
+        display: flex;
+        justify-content: center;
+        margin: 10px 10px 40px 10px;
+        border-collapse: separate;
+
+        img {
+            width: 300px;
+        }
+
+        table {
+            width: 100%;
+            max-width: 700px;
+            text-align: left;
+            border-collapse: collapse;
+
+            td, th {
+                padding: 5px;
+            }
+
+            thead th {
+                color: var(--cor-branca);
+                background-color: var(--cor-verde);
+            }
+
+            tbody tr:nth-of-type(odd) {
+                background-color: var(--cor-cinza-medio);
+            }
+
+            tbody tr:nth-of-type(even) {
+                background-color: var(--cor-cinza-claro);
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .especialidades {
+        .tabela-horarios {
+            img {
+                display: none;
+            }
+        }
+    }
+}
