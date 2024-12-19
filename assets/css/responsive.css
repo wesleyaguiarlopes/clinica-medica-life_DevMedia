@@ -13,10 +13,10 @@
             flex-direction: column;
 
             .lista-de-itens {
-                gap: 10%;
                 width: 100%;
+                padding: 15px 0;
                 border-top: 1px solid;
-                justify-content: space-evenly;
+                justify-content: space-between;
             }
         }
     }

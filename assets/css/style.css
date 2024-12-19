@@ -24,10 +24,8 @@
         justify-content: space-between;
 
         .lista-de-itens {
-            gap: 20px;
             display: flex;
-                padding: 10px;
-                list-style: none;
+            list-style: none;
 
             .link {
                 padding: 10px;
